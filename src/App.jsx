@@ -17,7 +17,7 @@ function App() {
 <h1 className="text-xl font-bold  text-black ml-2">
       Topi vappa Biriyani salem
     </h1>
-    <h2>PARTY ORDER AVAILABLE</h2>
+    <h2 className='ml-2'>PARTY ORDER AVAILABLE</h2>
     <h2 className="font-bold ml-2"> Contact:7305748889</h2>
 
 </header>
