@@ -884,15 +884,18 @@ function App() {
       <p>Veg Kolapuri</p>
       <p>₹150</p>
     </div>
+    </li>
+</ul>
+</div>
     
     {/*EGG DISHES  */}
 {/* Non veg Indian Curries */}
-<div className="flex items-center ">
+<div className="flex items-center ml-2">
     <h2 className='my-1 font-bold'>EGG DISH</h2>  
     <img src={nonveg} alt="non veg" className="w-8 h-auto " />
   </div>  
 
-<div className='ml-1'>
+<div className='ml-2'>
   <ul>
   <li className="flex flex-col">
     <div className="flex justify-between mr-2">
@@ -915,15 +918,17 @@ function App() {
       <p>Egg Podimas</p>
       <p>₹50</p>
     </div>
-    
+    </li>
+</ul>
+</div>
   
   {/*SEA FOODS */}
-  <div className="flex items-center ">
+  <div className="flex items-center ml-2 ">
     <h2 className='my-1 font-bold'>SEA FOODS</h2>  
     <img src={nonveg} alt="non veg" className="w-8 h-auto " />
   </div>  
 
-<div className=''>
+<div className='ml-2'>
   <ul>
   <li className="flex flex-col">
     <div className="flex justify-between mr-2">
@@ -1007,26 +1012,20 @@ function App() {
       <p>₹280</p>
     </div>
    
-    {/*VEG INDIAN CURRIES */}
-    
-    
-    
-  
-
-    
   </li>
 </ul>
 </div>
+
     {/* INDIAN BREADS */}
-    <div className="flex items-center">
+    <div className="flex items-center ml-2">
     <h2 className='my-1 font-bold'>INDIAN BREADS</h2>  
-    <img src={nonveg} alt="non veg" className="w-8 h-auto " />
+    {/* <img src={nonveg} alt="non veg" className="w-8 h-auto " /> */}
   </div>
-  <div className="flex items-center">
+  <div className="flex items-center ml-2">
     <h4 className='text-sm font-bold'>[EXTRA BUTTER RS10 IF APPLICABLE]</h4>  
   </div>
 
-  <div className=''>
+  <div className='ml-2'>
   <ul>
   <li className="flex flex-col">
     <div className="flex justify-between mr-2">
@@ -1102,21 +1101,263 @@ function App() {
   </li>
 </ul>
 </div>
-    
-  
+    {/* Grill */}
+<div className="flex items-center ml-2">
+    <h2 className='my-1 font-bold'>GRILL(Chicken)</h2>  
+    <img src={nonveg} alt="non veg" className="w-8 h-auto " />
+  </div>
+  <div className='ml-2'>
+  <ul>
+  <li className="flex flex-col">
+    <div className="flex justify-between mr-2">
+      <p>Grill Quarter</p>
+      <p>₹110</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pepper Grill Quarter</p>
+      <p>₹120</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Grill Half</p>
+      <p>₹220</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pepper Grill Half</p>
+      <p>₹230</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Grill Full</p>
+      <p>₹400</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pepper Grill Full</p>
+      <p>₹420</p>
+    </div>
+  </li>
+</ul>
+</div>
 
+    {/* BBQ*/}
+    <div className="flex items-center ml-2">
+    <h2 className='my-1 font-bold'>BBQ(Chicken)</h2>  
+    <img src={nonveg} alt="non veg" className="w-8 h-auto " />
+  </div>
+  <div className='ml-2'>
+  <ul>
+  <li className="flex flex-col">
+    <div className="flex justify-between mr-2">
+      <p>Pepper BBQ Quarter</p>
+      <p>₹110</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Chilly BBQ Quarter</p>
+      <p>₹110</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Afghan BBQ Quarter </p>
+      <p>₹110</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pepper BBQ Half</p>
+      <p>₹220</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Chilly BBQ Half</p>
+      <p>₹220</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Afghan BBQ Half</p>
+      <p>₹220</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pepper BBQ Full</p>
+      <p>₹400</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Chilly BBQ Full</p>
+      <p>₹400</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Afghan BBQ Full</p>
+      <p>₹400</p>
+    </div>
+  </li>
+</ul>
+</div>
+
+ {/* SHAWARMA */}
+ <div className="flex items-center ml-2">
+    <h2 className='my-1 font-bold'>SHAWARMA(Chicken)</h2>  
+    <img src={nonveg} alt="non veg" className="w-8 h-auto " />
+  </div>
+  <div className="flex items-center ml-2">
+    <h4 className='text-sm font-bold'>[FOR EXTRA KUBOOS-10 MAYONNAISE -20]</h4>  
+  </div>
+
+  <div className='ml-2'>
+  <ul>
+  <li className="flex flex-col">
+  <div className="flex justify-end mr-2 ">
+      <p className='mr-14'>ROLL</p>
+      <p className='justify-end'>PLATE</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Shawarma</p>
+      <p className='ml-10'>₹100</p>
+      <p>₹150</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Mexican Shawarma</p>
+      <p className='mr-6'>₹120</p>
+      <p>₹170</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Tandoori Shawarma</p>
+      <p className='mr-8'>₹130</p>
+      <p>₹180</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Special Shawarma</p>
+      <p className='mr-4'>₹120</p>
+      <p>₹170</p>
+
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Peri Peri Shawarma</p>
+      <p className='mr-6'>₹120</p>
+      <p>₹180</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Topi Special Shawarma</p>
+      <p className='mr-12'>₹130</p>
+      <p>₹190</p>
+    </div>
+  </li>
+</ul>
+</div>
+  {/* FRESH JUICE */}
+  <div className="flex items-center ml-2">
+    <h2 className='my-1 font-bold'>FRESH JUICE</h2>  
+    {/* <img src={nonveg} alt="non veg" className="w-8 h-auto " /> */}
+  </div>
+ 
+  <div className='ml-2'>
+  <ul>
+  <li className="flex flex-col">
+    <div className="flex justify-between mr-2">
+      <p>Apple</p>
+      <p>₹80</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pomegranate</p>
+      <p>₹80</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Pineapple</p>
+      <p>₹70</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Orange</p>
+      <p>₹70</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Mosambi</p>
+      <p>₹70</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Water Melon</p>
+      <p>₹60</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Muskmelon</p>
+      <p>₹60</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Lemon Mint Cooler</p>
+      <p>₹50</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Lemon Juice</p>
+      <p>₹50</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Graps</p>
+      <p>₹50</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Choice of Mojito</p>
+      <p>₹60</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Lemon Soda</p>
+      <p>₹50</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Water Bottle</p>
+      <p>₹20</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Goli soda</p>
+      <p>₹30</p>
+    </div>
+  </li>
+</ul>
+</div>
+ {/* ICE CREAM & MILKSHAKE*/}
+ <div className="flex items-center ml-2">
+    <h2 className='my-1 font-bold'>ICE CREAM & MILKSHAKE</h2>  
+    {/* <img src={nonveg} alt="non veg" className="w-8 h-auto " /> */}
+  </div>
+ 
+  <div className='ml-2'>
+  <ul>
+  <li className="flex flex-col">
+    <div className="flex justify-between mr-2">
+      <p>Ice Cream (2 Scoops)</p>
+      <p>₹70</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Choice of Ice Cream</p>
+      <p>₹40</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Choice of Milkshake</p>
+      <p>₹80</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Milkshake With Ice Cream</p>
+      <p>₹100</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Fruit Salad</p>
+      <p>₹60</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Fruit Salad With Ice Cream </p>
+      <p>₹90</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Royal Falooda(Fruits)</p>
+      <p>₹110</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Dry Nuts Falooda</p>
+      <p>₹130</p>
+    </div>
+    <div className="flex justify-between mr-2">
+      <p>Choice of Falooda</p>
+      <p>₹100</p>
+    </div>
+    
     
   </li>
 </ul>
 </div>
-   
-    
-  
 
-    
-  </li>
-</ul>
-</div>
+
+
+
+
 
 </body>
  
