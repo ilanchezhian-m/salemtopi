@@ -111,7 +111,7 @@ function App() {
 
 {/*Topi vappa biriyani  */}
 <div className="flex items-center ml-2">
-    <h2 className='my-1 font-bold'>TOPI VAPPA BRIYANI</h2>  
+    <h2 className='my-1 font-bold'>TOPI VAPPA BIRIYANI</h2>  
     <img src={nonveg} alt="non veg" className="w-8 h-auto " />
   </div>
   <div className='ml-2'>
@@ -180,7 +180,7 @@ function App() {
 {/* Topi vappa Bucket Biriyani */}
 {/*Topi vappa biriyani  */}
 <div className="flex items-center ml-2">
-    <h2 className='my-1 font-bold'>TOPI VAPPA BUCKET BRIYANI</h2>  
+    <h2 className='my-1 font-bold'>TOPI VAPPA BUCKET BIRIYANI</h2>  
     <img src={nonveg} alt="non veg" className="w-8 h-auto " />
   </div>
   <div className='ml-2'>
